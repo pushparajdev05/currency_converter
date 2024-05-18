@@ -2,5 +2,15 @@ import 'package:flutter/material.dart';
 
 void main()
 {
-  runApp(Text("hi my name is pushparaj"));
+  runApp(const MyApp());
+}
+class MyApp extends StatelessWidget
+{
+  const MyApp({super.key}); 
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      home:Text("text is here")
+    );
+  }
 }
